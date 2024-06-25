@@ -1,0 +1,22 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.straight{
+  @apply flex justify-center items-center
+}
+
+.text-16{
+  @apply text-[16px] font-medium
+}
+
+.svg-icon {
+  --svg-stroke-color: #B0B0B0;
+}
+
+.group:hover .svg-icon {
+  --svg-stroke-color: white;
+  filter: brightness(0) invert(1);
+}
